@@ -6,8 +6,7 @@ Currently, a simple interface to communicate between DCS World and MATLAB. This 
 
   1. Copy Export.lua to C:\Users\\[USER]\Saved Games\DCS.openbeta\Scripts
   2. Run STREAM.m in MATLAB and wait for "Waiting for DCS client connection."
-  3. 
-  4. 
+  3. Start the DCS mission (take command of the aircraft within 15 seconds of the "Connected" message from MATLAB). 
 
 Notes:
 - DCS World will begin running Export.lua only when the flight begins. Changes can be made to Export.lua between flights.
